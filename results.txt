@@ -1,0 +1,41 @@
+Loading dataset...
+
+--- Data Information ---
+Shape: (7500, 16)
+Null values:
+ transaction_id               0
+user_id                      0
+age                          0
+gender                       0
+daily_screen_time_hours      0
+social_media_hours           0
+gaming_hours                 0
+work_study_hours             0
+sleep_hours                  0
+notifications_per_day        0
+app_opens_per_day            0
+weekend_screen_time          0
+stress_level                 0
+academic_work_impact         0
+addiction_level            819
+addicted_label               0
+dtype: int64
+
+Sleep hours distribution:
+ sleep_hours
+7.77    29
+8.78    27
+7.27    27
+6.98    27
+5.79    27
+        ..
+6.83     7
+9.00     7
+4.50     6
+7.69     6
+5.36     6
+Name: count, Length: 451, dtype: int64
+
+--- Training RandomForestClassifier ---
+Best parameters: {'n_estimators': 200, 'min_samples_split': 10, 'min_samples_leaf': 5, 'max_depth': 30}
+Best score: 0.5103333333333333
