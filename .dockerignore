@@ -1,0 +1,8 @@
+__pycache__/
+*.ipynb
+*.csv
+.ipynb_checkpoints/
+.git/
+.gitignore
+Dockerfile
+.dockerignore
